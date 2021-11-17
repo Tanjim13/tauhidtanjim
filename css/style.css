@@ -544,12 +544,7 @@ nav ul li a {
   height: auto;
   width: 100%;
 }
-.container .journal-block .taught h4{
 
-}
-.journal-info .journal-txt .texp{
-  
-  }
 #technical .technical-block .technical-info {
   position: relative;
 }
@@ -713,33 +708,14 @@ nav ul li a {
   font-size: 13px;
 }
 
-.loader-wrapper{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #242f3f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
-.loader{
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  border: 4px solid #fff;
- 
-  animation: loader 5s infinite ease;
 
-}
-.loader-inner{
-
-  vertical-align: top;
-  display: inline-block;
-  width: 100%;
-  background-color: #fff;
-  animation: loader-inner 5s infinite ease-in;
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
 }
