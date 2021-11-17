@@ -10,6 +10,16 @@ $(document).ready(function() {
 
   $(document).on("scroll", onScroll);
 
+  $(function() {
+    $('a').bind('click',function(event){
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top-50
+        }, 1000);       
+
+    });
+ });
+
   $('a[href^="#"]').on('click', function(e) {
     e.preventDefault();
     $(document).off("scroll");
@@ -45,6 +55,8 @@ $(document).ready(function() {
       });
     }
   }
+
+  
 
   // ========================================================================= //
   //  //NAVBAR SHOW - HIDE
