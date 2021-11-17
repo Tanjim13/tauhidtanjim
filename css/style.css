@@ -712,3 +712,34 @@ nav ul li a {
 .credits {
   font-size: 13px;
 }
+
+.loader-wrapper{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.loader{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #fff;
+ 
+  animation: loader 5s infinite ease;
+
+}
+.loader-inner{
+
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 5s infinite ease-in;
+}
