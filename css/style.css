@@ -243,10 +243,8 @@ nav ul li a {
   background: url("../images/home-bg.jpeg") repeat scroll center center / cover;
 
   
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  
+  
 }
 
 
